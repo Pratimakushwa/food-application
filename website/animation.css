@@ -1,0 +1,14 @@
+.a{
+    width:3cm;
+    height: 3cm;
+    background-color: brown;
+    animation-name: ab;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: 3;
+
+}
+@keyframes ab{
+    from{background-color:red;  top: 200px;}
+    to{background-color:green ; top:  0px;}
+}

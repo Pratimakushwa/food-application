@@ -1,0 +1,107 @@
+@import url('http://fonts.googleapis.com/css2?faimly=poppins');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(file:///C:/Users/prach/Desktop/html,css/img.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+              
+}
+.container{
+    color: azure;
+    
+}
+.container h2{
+    font-size: 6vmin;
+}
+.line{
+    width:200px;
+    height: 4px;
+    background-color: rgb(185, 10, 10);
+    margin: 10px auto;
+}
+.container h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.cdn{
+    padding: 8px 15px;
+    background-color: rgb(235, 10, 10);
+    border-radius: 30px;
+    color: antiquewhite;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+.fa-solid fa-bars{
+    float: right;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+
+}
+.nav-link li{
+    margin:0 50px ;
+}
+.active{
+    color: rgb(245, 9, 9);
+    text-decoration: underline;
+    font-size: bold;
+}
+.logo{
+    padding-left: 400
+}
+@media only screen and(max-width:850px){
+    .navbar{
+        padding: 0;
+    }
+    .logo {
+        position:absolute;
+        top: 30px;
+        left:30px;
+    }
+    .nav-link {
+        flex-direction: column;
+        width:100%;
+        height:100vh;
+        background: rgb(110, 78, 139);
+
+        justify-content: center;
+    }
+     
+    .nav-link li{
+        margin: 30px auto;
+
+    }
+    
+
+}

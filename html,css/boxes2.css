@@ -1,0 +1,7 @@
+#boxes2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(200px , 200px) rotate(90deg)
+
+}

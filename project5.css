@@ -1,0 +1,145 @@
+body{
+    background-color: brown;
+}
+.heading{
+    color: yellow;
+    margin-left: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-left: 62px;
+    margin-bottom: 300px;
+    font-size: 14px;
+}
+.search{
+    width:330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(16, 15, 17);
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(246, 246, 8);
+    color: azure;
+}
+.content{
+     width: 1200px;
+     color: white;
+     margin: 20px;
+}
+.content .par{
+    padding-left: 20px;
+
+    font-family: Arial;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: rgb(36, 216, 36);
+}
+.content h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.content h1 span{
+    color: orangered;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: orangered;
+    color: azure;
+    border-radius: 3px;
+}
+.cn:hover{
+    background-color:blue ;
+}
+.form{
+    width: 250px;
+    height: 450px;
+    border: 3px solid black;
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    background-color: black;
+    padding: 25px;
+    border-radius: 20px;
+}
+.form h2{
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: orangered;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;;
+}
+.form input{
+    width: 250px;
+    background: transparent;
+    border-bottom: 1px solid rgb(28, 28, 94);
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    margin: 20px;
+    font-size: 20px;
+}
+.btn{
+    width:250px ;
+    height: 40px;
+    background-color: orangered;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+}
+
+.form .link{
+    text-align: center;
+    font-family:Arial ;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.form h2{
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial;
+    color: blueviolet;
+}
+.form .link a{
+    text-align: center;
+    padding-bottom: 10px;
+    color:orangered ;
+
+}
+.liw{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.icon{
+    
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: blueviolet;
+}
